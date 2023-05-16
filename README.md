@@ -1,2 +1,9 @@
 # Primer-Repositorio
-agregar un hola mundo
+
+601
+Menu de Programas para la materia Programacion Orientada a Objetos
+Docente: Dr. Hugo Ortiz Quiroga
+Alumno: Jesus Uriel Ortega Urbina
+
+1 HolaMundo.java
+
