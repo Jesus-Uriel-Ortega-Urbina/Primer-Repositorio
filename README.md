@@ -13,4 +13,9 @@ Alumno: Jesus Uriel Ortega Urbina
 
 2 TRIFIV_v1.java
 
-3
+3 TRIFIV_v2.java
+
+4 TRIFIV_v3.java
+
+5 TRIFIV_v4.java
+
