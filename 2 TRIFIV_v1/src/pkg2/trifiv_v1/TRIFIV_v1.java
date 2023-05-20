@@ -1,4 +1,4 @@
-
+//modificar el ultimo static
 package pkg2.trifiv_v1;
 
 import java.io.BufferedReader; 
@@ -10,40 +10,36 @@ public class TRIFIV_v1 {
 
     public static void main(String[] args) throws IOException {
        
-        //Declaracion de variables 
+    
         BufferedReader bufEntrada = new BufferedReader(new InputStreamReader(System.in));  
-        //bufferedReder nos manda cuales imprtaciones son requeridas 
-        int numero; 
+        //bufferedReder nos manda cuales imprtaciones son requeridas  owo
+        int num; 
         float mult3;
         float mult5;
-        //Entrada de datos
+        
+
         System.out .println("Dame el numero: ");
-        numero = Integer.parseInt(bufEntrada.readLine());
-        //Procesar datos
+        num = Integer.parseInt(bufEntrada.readLine());
         
-        mult3 = numero%3;
-        mult5 = numero%5;
         
-        System.out.println(retornaMultiplo(numero));
+        mult3 = num%3;
+        mult5 = num%5;
         
-    }
     
-    public static String retornaMultiplo (int num)
-            
-    { 
-        if(num %3==0 && num%5 ==0)
+  
+        
+        if(mult3 ==0 && mult5 ==0)
         {
-            return "TRIFIV";
+            System.out.println("TRIFIV");
         }
-        if (num%3==0)
+        else if (mult3==0)
         {
-            return "TRI";
+            System.out.println("TRI");
         }
-        if (num%5==0)
+        else if (mult5==0)
         {
-            return "FIV";
-                
+            System.out.println("FIV");
         }
-        return  "no es multiplo";
+   
     }
 }
