@@ -6,7 +6,7 @@ Menu de Programas para la materia Programacion Orientada a Objetos
 
 Docente: Dr. Hugo Ortiz Quiroga
 
-Alumno: Jesus Uriel Ortega Urbina
+Alumno: Jesus Uriel Ortega Urbina - 1321091159
 
 
 1 HolaMundo.java
