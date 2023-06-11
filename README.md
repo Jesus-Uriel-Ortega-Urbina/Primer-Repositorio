@@ -21,3 +21,5 @@ Alumno: Jesus Uriel Ortega Urbina - 1321091159
 
 6 Juego
 
+7 Diagrama Estructura de Clases
+
