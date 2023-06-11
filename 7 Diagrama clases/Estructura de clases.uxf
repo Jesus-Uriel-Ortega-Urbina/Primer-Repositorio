@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>140</y><w>210</w><h>140</h></coordinates><panel_attributes>Setup
+(Clase Principal)
+--
+-fondo_new: object
+-piso_new: object
+-makima_new: object
++obj2_new: object
+puntos_bots_new. String
++puntos: Number = 0
+--
++Actualiza_puntos(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>140</y><w>210</w><h>150</h></coordinates><panel_attributes>obj2
+(Protagonista)
+--
+-der: Boolean = false
+-izq: Boolean = false
+-vel: int = 5
+--
++Motor(): void
+-Controles(): void
++keydown(): void
++keyup(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>370</y><w>210</w><h>150</h></coordinates><panel_attributes>makima
+(Antagonista)
+--
+-vel: Number = 10
+-dir: Number = 1
+-limite_der: Number = 550
+-t_cambia: Timer = (2000, 0)
+-dado: Number
+-t_lanzar: Timer = (2000,0)
+--
++lanza_obj3(): TimerEvent
++actualiza(): Event
++cambia_dir(): TimerEvent</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>440</y><w>210</w><h>80</h></coordinates><panel_attributes>obj3
+(Bala)
+--
+-vel: Number = 5
+--
++mover(): Event</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>0</y><w>210</w><h>80</h></coordinates><panel_attributes>Juego
+(MovieClip)
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>80</y><w>330</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;40;310;40;310;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>80</y><w>290</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>270;60;270;40;10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>100</y><w>270</w><h>290</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;270;10;230;250;230;250;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>80</y><w>120</w><h>380</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>100;360;100;250;10;250;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>460</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>120;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>280</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>210</y><w>370</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>350;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>280</y><w>110</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;90;200;10;200</additional_attributes></element></diagram>
