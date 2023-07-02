@@ -23,3 +23,5 @@ Alumno: Jesus Uriel Ortega Urbina - 1321091159
 
 7 Diagrama Estructura de Clases
 
+8 Segunda Unidad
+
